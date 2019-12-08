@@ -12,7 +12,7 @@
 <html>
 	<head>
 			<link href="../css/userStyle.css" rel="stylesheet" />
-			<link rel="icon" type="image/jpg" href="../image/logo.jpeg" />			
+			<link rel="icon" type="image/jpg" href="../image/logo.jpeg" />
 			<title>Tasty-Express</title>
 			<meta charset='UTF-8'>
 			<script src="../js/jquery-1.11.3.min.js"></script>
@@ -23,12 +23,17 @@
 	</head>
 <body>
 
-	<?php 
+	<?php
 		$_SESSION['last_page']="index.php";
 		show2();
 		if(isset($_POST['old_password'])&&isset($_POST['new_password']))
 		{
-			echo "hi";
+			$con = m_connect('details');
+			$uid =  $_SESSION['userid'];
+			$salt1="a@b";
+			$new_pass=hash('ripemd128',$salt1.$_POST['new_password']);
+			$query = "UPDATE User SET PASSWORD = '$new_pass' WHERE USER_ID = $uid";
+			mysqli_query($con,$query);
 		}
 	?>
 	<div id="ordernow">

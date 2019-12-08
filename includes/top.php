@@ -4,6 +4,9 @@
 <link rel="stylesheet" href="css/dropdown.css" />
 <link rel="stylesheet" href="css/floatsign.css" />
 <?php
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
 	function show(){
 	  echo'<div id="setthis">
 		<div style="height:10px; width:100%;">&nbsp;</div>
@@ -210,10 +213,10 @@
 						<li>
 						    Quick Access
 						    <ul>
-						      <li><a href="user/profile.php">Profile</a></li>
-						      <li><a href="user/orders.php">Your Orders</a></li>
-						      <li><a href="user/change_pass.php">Change Password</a></li>
-						      <li style="color:red;"><a href="signout.php">Sign out</a></li>
+						      <li><a href="user/profile.php"><span>Profile</span></a></li>
+						      <li><a href="user/orders.php"><span>Your Orders</span></a></li>
+						      <li><a href="user/change_pass.php"><span>Change Password</span></a></li>
+						      <li style="color:red;"><a href="signout.php"><span>Sign out</span></a></li>
 						    </ul>
 						  </li>
 						 </ul>
@@ -252,11 +255,11 @@
 						<li>
 						    Quick Access
 						    <ul>
-						      <li><a href="profile.php">Profile</a></li>
-						      <li><a href="add_user.php">Add User</a></li>
-						      <li><a href="orders.php">Your Orders</a></li>
-						      <li><a href="change_pass.php">Change Password</a></li>
-						      <li style="color:red;"><a href="../signout.php">Sign out</a></li>
+						      <li><a href="profile.php"><span>Profile</span></a></li>
+						      <li><a href="add_user.php"><span>Add User</span></a></li>
+						      <li><a href="orders.php"><span>Your Orders</span></a></li>
+						      <li><a href="change_pass.php"><span>Change Password</span></a></li>
+						      <li style="color:red;"><a href="../signout.php"><span>Sign out</span></a></li>
 						    </ul>
 						  </li>
 						 </ul>

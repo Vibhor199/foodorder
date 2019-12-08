@@ -36,9 +36,9 @@
 	<img src ="image/person.png" style="margin-right:15px;"/>
 	</div>
 	<div >
-	<div style="display:inline; margin-left:25% ; margin-right:10%;">Rahul Mishra</div>
-	<div style="display:inline; margin-right:10%;">Vibhor</div>
-	<div style="display:inline;">     Vibhor</div>
+	<div style="display:inline; margin-left:25% ; margin-right:10%;">Vibhor</div>
+	<div style="display:inline; margin-right:14%; margin-left: 5%">Rahul</div>
+	<div style="display:inline;">Pritish</div>
 	</div>
 	<div class="details" style="margin-left:20%; margin-top:20px; color:green"><h2>Our Team</h2></div>
 

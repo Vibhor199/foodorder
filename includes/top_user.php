@@ -15,8 +15,8 @@ function show2(){
 						<li>
 						    Quick Access
 						    <ul>
-						      <li>Profile</li>
-						      <li>Your Orders</li>
+						      <li><a href="profile.php">Profile</a></li>
+						      <li><a href="orders.php">Your Orders</a></li>
 						      <li><a href="change_pass.php">Change Password</a></li>
 						      <li style="color:red;"><a href="../signout.php">Sign out</a></li>
 						    </ul>

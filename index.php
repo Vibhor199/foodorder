@@ -75,14 +75,14 @@
 	</div>
 	<div id="ourspecial">
 		<div>
-	    		 <img src="image/logo.jpeg" height=240px, width=340px>
-  		</div>
-		 <div>
-	    		 <img src="image/cholebature.jpeg" height=240px, width=340px>
-		 </div>
-		 <div>
-	    		 <img src="image/idli.jpg" height=240px, width=340px>
-		 </div>
+			 		 <img src="image/logo.jpeg" height=240px, width=340px>
+  	</div>
+		<div>
+			 		 <img src="image/cholebature.jpeg" height=240px, width=340px>
+		</div>
+		<div>
+			 		 <img src="image/idli.jpg" height=240px, width=340px>
+		</div>
 
 	</div>
 	<br/>
